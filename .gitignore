@@ -1,0 +1,17 @@
+node_modules/
+.env
+.DS_Store
+dist/
+scheduler-frontend/node_modules/
+scheduler-frontend/dist/
+scheduler-frontend/.DS_Store
+scheduler-frontend/src/.DS_Store
+scheduler-frontend/src/components/.DS_Store
+scheduler-frontend/src/components/layout/.DS_Store
+scheduler-frontend/src/components/ui/.DS_Store
+scheduler-frontend/src/context/.DS_Store
+scheduler-frontend/src/pages/.DS_Store
+scheduler-frontend/src/services/.DS_Store
+Cloud-Native/node_modules/
+Cloud-Native/.env
+Cloud-Native/.DS_Store

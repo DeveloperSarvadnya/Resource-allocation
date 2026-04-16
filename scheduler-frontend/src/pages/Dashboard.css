@@ -1,0 +1,72 @@
+.card-head { display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px; }
+.card-title { font-family: var(--font-display); font-size: 16px; font-weight: 600; }
+.card-link { font-size: 12px; color: var(--accent2); }
+.card-link:hover { text-decoration: underline; }
+.empty-state { text-align: center; padding: 32px; color: var(--text3); font-size: 13px; }
+.booking-list { display: flex; flex-direction: column; gap: 2px; }
+.booking-item { display: flex; align-items: center; gap: 12px; padding: 10px 0; border-bottom: 1px solid var(--border); }
+.booking-item:last-child { border-bottom: none; }
+.booking-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+.booking-info { flex: 1; min-width: 0; }
+.booking-title { font-size: 13px; font-weight: 500; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.booking-meta  { font-size: 11px; color: var(--text3); margin-top: 2px; }
+.quick-actions { display: flex; flex-direction: column; gap: 8px; }
+.quick-action-card {
+  display: flex; align-items: center; gap: 14px;
+  padding: 14px; border-radius: var(--radius);
+  border: 1px solid var(--border);
+  transition: all 0.2s;
+}
+.quick-action-card:hover { border-color: var(--accent); background: var(--accent-bg); transform: translateX(4px); }
+.qa-icon { font-size: 20px; color: var(--accent2); width: 36px; height: 36px; display: flex; align-items: center; justify-content: center; background: var(--accent-bg); border-radius: var(--radius); flex-shrink: 0; }
+.qa-title { font-size: 14px; font-weight: 500; margin-bottom: 2px; }
+.qa-sub   { font-size: 12px; color: var(--text3); }
+
+/* ── Feature 5: Delete booking button ──────── */
+.delete-booking-btn {
+  flex-shrink: 0;
+  margin-left: 8px;
+  transition: all 0.2s;
+}
+.delete-booking-btn:hover {
+  transform: scale(1.05);
+}
+
+/* ── Feature 4: Past bookings dimmed ───────── */
+.past-booking {
+  opacity: 0.6;
+}
+.past-booking:hover {
+  opacity: 0.85;
+}
+
+/* ── Empty state ───────────────────────────── */
+.empty-state {
+  text-align: center;
+  padding: 32px;
+  color: var(--text3);
+  font-size: 13px;
+}
+.empty-icon {
+  font-size: 28px;
+  margin-bottom: 8px;
+}
+
+/* ── Delete confirmation card ──────────────── */
+.delete-confirm-card {
+  background: var(--bg3);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+}
+.delete-confirm-title {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  color: var(--text);
+}
+.delete-confirm-meta {
+  font-size: 12px;
+  color: var(--text2);
+}
+
